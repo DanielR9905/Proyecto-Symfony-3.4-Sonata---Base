@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Prueba{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}">
+        <link href="vendor/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+        <aside class="sidebarH hidden-print col-lg-2 col-md-2 col-sm-12 col-xs-12">
+        <ul id="accordion" class="accordion nav nav-list nav-department nav-tabs nav-stacked menu_lateral">
+ 	<li class="accordion-group"><a>Información General</a>
+<ul class="nav nav-list info informacion-general">
+ 	<li>Programa</li>
+ 	<li>Especialización Tecnológica en Ensayos no Destructivos para Inspección de Materiales</li>
+ 	<li>Duración</li>
+ 	<li>4 Semestres Académicos</li>
+ 	<li>Número de Créditos</li>
+ 	<li>50 Créditos Académicos</li>
+ 	<li>Intensidad Horaria</li>
+ 	<li>Viernes 5:00pm – 10:00pm - Sábado 8:00am – 1:00pm</li>
+ 	<li>Modalidad de Formación</li>
+ 	<li>Presencial</li>
+ 	<li>Código SNIES</li>
+ 	<li>104613</li>
+ 	<li>Valor de la Matrícula</li>
+ 	<li>8,25 SMMLV por Semestre</li>
+</ul>
+</li>
+ 	<li class="accordion-group"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" data-target=".presentacion"><span class="pull-right glyphicon glyphicon-chevron-down"></span>Presentación</a>
+<ul class="nav nav-list collapse presentacion">
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/informacion-de-registro.html">Información de Registro</a></li>
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/historia.html">Historia</a></li>
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/mision.html">Misión</a></li>
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/vision.html">Visión</a></li>
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/objetivos.html">Objetivos</a></li>
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/resultados-de-aprendizaje.html">Resultados de Aprendizaje</a></li>
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/proyecto-educativo-del-programa.html">Proyecto Educativo del Programa</a></li>
+</ul>
+</li>
+ 	<li class="accordion-group"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" data-target=".perfil-del-aspirante"><span class="pull-right glyphicon glyphicon-chevron-down"></span>Perfil Aspirante</a>
+<ul class="nav nav-list collapse perfil-del-aspirante">
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/requisitos-de-admision.html">Requisitos de Admisión</a></li>
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/horario-duracion-e-intensidad.html">Horario, Duración e Intensidad</a></li>
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/valor-de-la-matricula.html">Valor de la Matrícula</a></li>
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/calendario.html">Calendario</a></li>
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/requisitos-de-graduacion.html">Requisitos de Graduación</a></li>
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/descuentos-y-financiacion.html">Descuentos y Financiación</a></li>
+</ul>
+</li>
+ 	<li><a id="perfil-de-formacion" href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/perfil-de-formacion.html">Perfil de Formación</a></li>
+ 	<li class="accordion-group"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" data-target=".aspectos-academicos"><span class="pull-right glyphicon glyphicon-chevron-down"></span>Aspectos Académicos</a>
+<ul class="nav nav-list collapse aspectos-academicos">
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/ficha_tecnica/plan.html" target="_blank" rel="noopener">Plan de Estudios</a></li>
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/estructura-curricular.html">Estructura Curricular</a></li>
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/material-bibliografico.html">Material Bibliográfico</a></li>
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/documentos-de-interes.html">Documentos de Interés</a></li>
+</ul>
+</li>
+ 	<li class="accordion-group"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" data-target=".lineas-de-investigacion"><span class="pull-right glyphicon glyphicon-chevron-down"></span>Líneas de Investigación</a>
+<ul class="nav nav-list collapse lineas-de-investigacion">
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/lineas-de-investigacion.html">Líneas de Investigación</a></li>
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/trabajos-de-grado-relevantes.html">Trabajos de Grado Relevantes</a></li>
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/proyectos-en-curso.html">Proyectos en Curso</a></li>
+</ul>
+</li>
+ 	<li><a id="direccion" href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/director-del-programa.html">Director del Programa</a></li>
+ 	<li class="accordion-group"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" data-target=".profesores"><span class="pull-right glyphicon glyphicon-chevron-down"></span>Docentes</a>
+<ul class="nav nav-list collapse profesores">
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/docentes/planta.html">Planta</a></li>
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/docentes/catedra.html">Cátedra</a></li>
+</ul>
+</li>
+ 	<li class="accordion-group"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" data-target=".vivir-en-pereira"><span class="pull-right glyphicon glyphicon-chevron-down"></span>Vivir en Pereira</a>
+<ul class="nav nav-list collapse vivir-en-pereira">
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/acerca-de-la-ciudad.html">Acerca de la Ciudad</a></li>
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/acomodacion-y-costos.html">Acomodación y Costos</a></li>
+</ul>
+</li>
+ 	<li class="accordion-group"><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" data-target=".ubiquenos"><span class="pull-right glyphicon glyphicon-chevron-down"></span>Ubíquenos</a>
+<ul class="nav nav-list collapse ubiquenos">
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/asistente.html">Asistente</a></li>
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/mapa-esquematico.html">Mapa</a></li>
+ 	<li><a href="https://mecanica.utp.edu.co/especializaciones/tecnologica-en-ensayos-no-destructivos-para-inspeccion-de-materiales/infraestructura.html">Infraestructura</a></li>
+</ul>
+</li>
+ 	<li><a href="//mecanica.utp.edu.co/">Facultad de Ingeniería Mecánica</a></li>
+</ul>
+</aside>
+        {% block javascripts %}{% endblock %}
+        <script src="vendor/jquery/jquery3.6.0.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
